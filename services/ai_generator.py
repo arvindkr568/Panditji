@@ -4,6 +4,8 @@ from google import genai
 from services.logger import logger
 from google.genai import types
 from dotenv import load_dotenv
+from datetime import datetime
+import pytz
 
 def generate_daily_horoscopes(gochar_string: str) -> dict:
     """
@@ -21,6 +23,26 @@ def generate_daily_horoscopes(gochar_string: str) -> dict:
     # Initialize the new SDK client
     client = genai.Client(api_key=api_key)
 
+    # Calculate current date in IST for the prompt
+    tz = pytz.timezone('Asia/Kolkata')
+    now = datetime.now(tz)
+    
+    day = now.day
+    suffix = 'th' if 11 <= day <= 13 else {1: 'st', 2: 'nd', 3: 'rd'}.get(day % 10, 'th')
+    eng_months = {
+        1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "June",
+        7: "July", 8: "August", 9: "September", 10: "October", 11: "November", 12: "December"
+    }
+    eng_date_str = f"{day}{suffix} {eng_months[now.month]} {now.year}"
+    
+    hindi_months = {
+        1: "जनवरी", 2: "जनवरी", 3: "मार्च", 4: "अप्रैल", 5: "मई", 6: "जून",
+        7: "जुलाई", 8: "अगस्त", 9: "सितंबर", 10: "अक्टूबर", 11: "नवंबर", 12: "दिसंबर"
+    }
+    # Fix mapping error (2 was duplicate January)
+    hindi_months[2] = "फ़रवरी"
+    hin_date_str = f"{day} {hindi_months[now.month]} {now.year}"
+
     # Senior Pandit Ji Prompt
     system_prompt = f"""
     ॐ भूर्भुवः स्वः॥ 
@@ -32,13 +54,15 @@ def generate_daily_horoscopes(gochar_string: str) -> dict:
     Based on this Gochar, you must write the daily horoscope (Rashi Bhavishya) for all 12 Rasis.
     
     CRITICAL RULES:
-    1. For each Rasi, write EXACTLY 3 sentences. No more, no less.
-    2. The language MUST be pure, respectful, and spiritual Hindi, using proper Vedic terminology (e.g., 'धन लाभ', 'स्वास्थ्य', 'मानसिक शांति').
-    3. The output MUST be a valid JSON object where the keys are the exact 12 Hindi Rasi names and the values are the 3-sentence Hindi predictions.
+    1. For each Rasi, write EXACTLY 5 sentences. No more, no less.
+    2. The very first sentence MUST start by announcing today's date in both Hindi and English. 
+       Format: "आज {hin_date_str}, यानी {eng_date_str} के राशिफल में आपका स्वागत है।"
+    3. The remaining 4 sentences must be pure, respectful, and spiritual Hindi, using proper Vedic terminology (e.g., 'धन लाभ', 'स्वास्थ्य', 'मानसिक शांति').
+    4. The output MUST be a valid JSON object where the keys are the exact 12 Hindi Rasi names and the values are the 5-sentence Hindi predictions.
     
     Example output format:
     {{
-        "मेष": "आज आपका मन शांत रहेगा। कार्यक्षेत्र में सूर्य और मंगल के गोचर से आपको सफलता मिलेगी। स्वास्थ्य का विशेष ध्यान रखें।",
+        "मेष": "आज {hin_date_str}, यानी {eng_date_str} के राशिफल में आपका स्वागत है। आज आपका मन शांत रहेगा। कार्यक्षेत्र में सूर्य और मंगल के गोचर से आपको सफलता मिलेगी। धन लाभ के प्रबल योग हैं। स्वास्थ्य का विशेष ध्यान रखें।",
         "वृषभ": "...",
         ...
     }}
