@@ -879,3 +879,5 @@
 [2026-07-18 18:25:18] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:18 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AoSpiBVEGosd8FDiBAf3AOw"}}
 [2026-07-18 18:25:18] [ERROR] [automation:run_headless_pipeline] -      Failed to upload मीन to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:18 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AoSpiBVEGosd8FDiBAf3AOw"}}
 [2026-07-18 18:25:18] [INFO] [automation:run_headless_pipeline] - ✨ Pandit Ji Automation Complete!
+[2026-07-18 20:09:21] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-18 20:09:22] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002

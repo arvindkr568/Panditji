@@ -65,6 +65,56 @@ Then, open your web browser and go to:
 
 ---
 
+## 🌐 Staging & Production Environments
+
+The engine supports isolated **Staging** and **Production** environments to ensure you can test modifications safely without publishing mock videos to your public audience.
+
+### Local Execution Configuration
+
+You can change the environment locally by setting standard environment variables in your terminal:
+
+* **Staging Mode (Default / Safe Mode)**
+  * Sets YouTube uploads as `private` or `unlisted` for review.
+  * Mocks Facebook/Instagram uploads (skips hitting Meta API and logs a mock success).
+  ```bash
+  export YOUTUBE_PRIVACY_STATUS="private"
+  export META_DRY_RUN="true"
+  python app.py
+  ```
+
+* **Production Mode (Go-Live)**
+  * Uploads YouTube videos as `public` instantly.
+  * Uploads and publishes videos to the live Facebook Page.
+  ```bash
+  export YOUTUBE_PRIVACY_STATUS="public"
+  export META_DRY_RUN="false"
+  python app.py
+  ```
+
+---
+
+## 📈 GitHub Actions (4:00 AM Automation)
+
+GitHub Actions runs the pipeline automatically at **4:00 AM IST** daily. You can also trigger it manually:
+
+1. Go to your GitHub repository -> **Actions** -> select **Daily Pandit Ji Publisher**.
+2. Click **Run workflow**.
+3. Choose the branch and select the target environment from the dropdown (`staging` or `production`).
+
+To set up these environments on GitHub, configure two GitHub Environments (`staging` and `production`) under **Repository Settings -> Environments** and add the corresponding variables:
+- **Staging**: `YOUTUBE_PRIVACY_STATUS=private`, `META_DRY_RUN=true`
+- **Production**: `YOUTUBE_PRIVACY_STATUS=public`, `META_DRY_RUN=false`
+
+---
+
+## 📝 Logging & Debugging
+
+The application utilizes a centralized global logging system. 
+- Log statements are printed with timestamp and severity to the **Console**.
+- Log statements are permanently saved and rotated in **`logs/panditji.log`** (maximum 5MB per file, keeps 3 backups).
+
+---
+
 ## 🎮 Usage Guide
 
 Once you open the web dashboard, simply follow the red/blue buttons sequentially down the page:
