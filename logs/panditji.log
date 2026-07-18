@@ -1,0 +1,881 @@
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-14 16:33:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-14 16:33:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Missing META_PAGE_ACCESS_TOKEN or META_PAGE_ID.
+[2026-07-14 16:33:38] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-14 16:33:53] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-15 11:32:34] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-15 11:32:34] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461236.7517824075
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 88.563980773153 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 100.38191912907092 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 47.354951252050014 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 85.09909799202491 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 99.02909456895773 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 131.88910029941687 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.40569163115805 degrees
+[2026-07-15 11:32:34] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.6021272255001 degrees
+[2026-07-15 11:32:37] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-15 11:32:37] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-15 11:32:58] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-15 11:32:58] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-15 11:33:02] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-15 11:33:02] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-15 11:33:02] [INFO] [audio_producer:generate_all_audio_async] - Loaded 12 predictions. Dispatching audio generation tasks...
+[2026-07-15 11:33:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-15 11:33:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-15 11:33:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-15 11:33:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-15 11:33:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-15 11:33:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-15 11:33:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-15 11:33:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-15 11:33:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-15 11:33:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-15 11:33:07] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-15 11:33:07] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-15 11:33:07] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-15 11:33:13] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:33:13] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-15 11:33:35] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-15 11:33:35] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:33:35] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-15 11:33:58] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-15 11:33:58] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:33:58] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-15 11:34:23] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-15 11:34:23] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:34:23] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-15 11:34:47] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-15 11:34:47] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:34:47] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-15 11:35:10] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-15 11:35:10] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:35:10] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-15 11:35:33] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-15 11:35:33] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:35:33] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-15 11:35:56] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-15 11:35:56] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:35:56] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-15 11:36:17] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-15 11:36:17] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:36:17] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-15 11:36:38] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-15 11:36:38] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:36:38] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-15 11:37:01] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-15 11:37:01] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:37:01] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कुंभ
+[2026-07-15 11:37:23] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कुंभ.mp4
+[2026-07-15 11:37:23] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:37:23] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
+[2026-07-15 11:37:46] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-15 11:38:27] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:27] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-15 11:38:27] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-15 11:38:27] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:29] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:29 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AUcY0DU2YzQUSB52R3-EIG6"}}
+[2026-07-15 11:38:29] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:29 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AUcY0DU2YzQUSB52R3-EIG6"}}
+[2026-07-15 11:38:29] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:29] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-15 11:38:29] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-15 11:38:29] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:31] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:31 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A0v-KvS3HwBIpJfP546uaZQ"}}
+[2026-07-15 11:38:31] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:31 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A0v-KvS3HwBIpJfP546uaZQ"}}
+[2026-07-15 11:38:31] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:31] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-15 11:38:31] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-15 11:38:31] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:34] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:34 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AYJueBh2fpETBWMd6sJZnYE"}}
+[2026-07-15 11:38:34] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:34 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AYJueBh2fpETBWMd6sJZnYE"}}
+[2026-07-15 11:38:34] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:34] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-15 11:38:34] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-15 11:38:34] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:36] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:36 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Axk9InsJjvEE6Hnc9JEmD8a"}}
+[2026-07-15 11:38:36] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:36 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Axk9InsJjvEE6Hnc9JEmD8a"}}
+[2026-07-15 11:38:36] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:36] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-15 11:38:36] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-15 11:38:36] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:38] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:38 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AnF59nyehS6O52CEj9SHhAi"}}
+[2026-07-15 11:38:38] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:38 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AnF59nyehS6O52CEj9SHhAi"}}
+[2026-07-15 11:38:38] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:38] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-15 11:38:38] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-15 11:38:38] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:39] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:39 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AVv4mqahGlafZY1J-1-j-sN"}}
+[2026-07-15 11:38:39] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:39 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AVv4mqahGlafZY1J-1-j-sN"}}
+[2026-07-15 11:38:39] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:39] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-15 11:38:39] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-15 11:38:40] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:42] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:41 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AWEioT-5tCBC6bg_6_1Yfzt"}}
+[2026-07-15 11:38:42] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:41 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AWEioT-5tCBC6bg_6_1Yfzt"}}
+[2026-07-15 11:38:42] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:42] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-15 11:38:42] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-15 11:38:42] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:43] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:43 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"At16fcNFvVBewkFRPLD9T6W"}}
+[2026-07-15 11:38:43] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:43 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"At16fcNFvVBewkFRPLD9T6W"}}
+[2026-07-15 11:38:43] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:43] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-15 11:38:43] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-15 11:38:43] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:45] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:45 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A9AVnRFYnKsD8gloYsqrUOb"}}
+[2026-07-15 11:38:45] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:45 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A9AVnRFYnKsD8gloYsqrUOb"}}
+[2026-07-15 11:38:45] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:45] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-15 11:38:45] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-15 11:38:45] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:47] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:47 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Al3E0WeRTAtmrZgZT1BsasO"}}
+[2026-07-15 11:38:47] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:47 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Al3E0WeRTAtmrZgZT1BsasO"}}
+[2026-07-15 11:38:47] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:47] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-15 11:38:47] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-15 11:38:47] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:49] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:49 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"ALSN0AbjwhFpy377qkqLYqX"}}
+[2026-07-15 11:38:49] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:49 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"ALSN0AbjwhFpy377qkqLYqX"}}
+[2026-07-15 11:38:49] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:38:49] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-15 11:38:49] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-15 11:38:49] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:38:51] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:51 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AkOGCkY9toWBGJa5vR42Qw8"}}
+[2026-07-15 11:38:51] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:08:51 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AkOGCkY9toWBGJa5vR42Qw8"}}
+[2026-07-15 11:43:18] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:18] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-15 11:43:18] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-15 11:43:18] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:28] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:28 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AbKseBbYLY29fD3eS14umQH"}}
+[2026-07-15 11:43:28] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:28 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AbKseBbYLY29fD3eS14umQH"}}
+[2026-07-15 11:43:28] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:28] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-15 11:43:28] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-15 11:43:28] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:30] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:30 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AZgULTv4dQM8VQRpOuwdvwP"}}
+[2026-07-15 11:43:30] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:30 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AZgULTv4dQM8VQRpOuwdvwP"}}
+[2026-07-15 11:43:30] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:30] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-15 11:43:30] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-15 11:43:30] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:32] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:32 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A7g-9BbsiFxzp-us6BoUs5h"}}
+[2026-07-15 11:43:32] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:32 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A7g-9BbsiFxzp-us6BoUs5h"}}
+[2026-07-15 11:43:32] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:32] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-15 11:43:32] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-15 11:43:32] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:34] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:34 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A3qyPNHYd2uPm0x0ihf6iFC"}}
+[2026-07-15 11:43:34] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:34 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A3qyPNHYd2uPm0x0ihf6iFC"}}
+[2026-07-15 11:43:34] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:34] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-15 11:43:34] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-15 11:43:34] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:36] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:36 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AkJ6W4cjX-6Ls0EKxsLze2I"}}
+[2026-07-15 11:43:36] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:36 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AkJ6W4cjX-6Ls0EKxsLze2I"}}
+[2026-07-15 11:43:36] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:36] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-15 11:43:36] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-15 11:43:36] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:38] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:38 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Ace_uZtTta9bqB9-EP6RAPR"}}
+[2026-07-15 11:43:38] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:38 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Ace_uZtTta9bqB9-EP6RAPR"}}
+[2026-07-15 11:43:38] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:38] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-15 11:43:38] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-15 11:43:38] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:41] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:40 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AOiPpxO-7a42pc6cZ9SBX3X"}}
+[2026-07-15 11:43:41] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:40 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AOiPpxO-7a42pc6cZ9SBX3X"}}
+[2026-07-15 11:43:41] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:41] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-15 11:43:41] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-15 11:43:41] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:42] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:42 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AtztJBIxDl69lhlut0wcwhG"}}
+[2026-07-15 11:43:42] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:42 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AtztJBIxDl69lhlut0wcwhG"}}
+[2026-07-15 11:43:42] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:42] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-15 11:43:42] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-15 11:43:42] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:45] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:44 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AVGXxHx9wr-6dioIopYZh9L"}}
+[2026-07-15 11:43:45] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:44 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AVGXxHx9wr-6dioIopYZh9L"}}
+[2026-07-15 11:43:45] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:45] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-15 11:43:45] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-15 11:43:45] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:46] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:46 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"An8jRQO_EWD9IRviVdo6OY9"}}
+[2026-07-15 11:43:46] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:46 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"An8jRQO_EWD9IRviVdo6OY9"}}
+[2026-07-15 11:43:46] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:46] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-15 11:43:46] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-15 11:43:46] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:50] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:50 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A3ypqq6R9rppmNrKglSRXAm"}}
+[2026-07-15 11:43:50] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:50 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A3ypqq6R9rppmNrKglSRXAm"}}
+[2026-07-15 11:43:50] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 11:43:50] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-15 11:43:50] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-15 11:43:50] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 11:43:52] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:52 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AdDr6ETh2mjEFCO3Lq8Tmce"}}
+[2026-07-15 11:43:52] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Tuesday, 14-Jul-26 11:00:00 PDT. The current time is Tuesday, 14-Jul-26 23:13:52 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AdDr6ETh2mjEFCO3Lq8Tmce"}}
+[2026-07-15 11:44:17] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-15 11:44:17] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461236.7599189817
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 88.57174540210721 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 100.50233461162617 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 47.36061078164386 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 85.0942141038685 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 99.03088335180188 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 131.89804598311258 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.40585149898635 degrees
+[2026-07-15 11:44:17] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.6016960522701 degrees
+[2026-07-15 11:44:19] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-15 11:44:19] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-15 11:44:42] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-15 11:44:42] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-15 11:44:45] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-15 11:44:45] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-15 11:44:45] [INFO] [audio_producer:generate_all_audio_async] - Loaded 12 predictions. Dispatching audio generation tasks...
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-15 11:44:48] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-15 11:44:49] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-15 11:44:49] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-15 11:44:49] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-15 11:44:50] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-15 11:44:50] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-15 11:44:52] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:44:52] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-15 11:45:12] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-15 11:45:12] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:45:12] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-15 11:45:32] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-15 11:45:32] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:45:32] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-15 11:45:55] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-15 11:45:55] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:45:55] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-15 11:46:16] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-15 11:46:16] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:46:16] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-15 11:46:35] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-15 11:46:35] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:46:35] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-15 11:46:55] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-15 11:46:55] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:46:55] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-15 11:47:16] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-15 11:47:16] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:47:16] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-15 11:47:39] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-15 11:47:39] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:47:39] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-15 11:48:02] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-15 11:48:02] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:48:02] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-15 11:48:23] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-15 11:48:23] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:48:23] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कुंभ
+[2026-07-15 11:48:45] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कुंभ.mp4
+[2026-07-15 11:48:45] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 11:48:45] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
+[2026-07-15 11:49:07] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-15 12:06:19] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:19] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-15 12:06:19] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-15 12:06:19] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AhxPFpb2gIhT21sssBd5DMm"}}
+[2026-07-15 12:06:21] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AhxPFpb2gIhT21sssBd5DMm"}}
+[2026-07-15 12:06:21] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-15 12:06:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-15 12:06:21] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:23] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AZ_G00nvzO9PIwAxNxDcsss"}}
+[2026-07-15 12:06:23] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AZ_G00nvzO9PIwAxNxDcsss"}}
+[2026-07-15 12:06:23] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:23] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-15 12:06:23] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-15 12:06:23] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:25] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"A3VuAjv9QPW2ChWA-1xFonS"}}
+[2026-07-15 12:06:25] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"A3VuAjv9QPW2ChWA-1xFonS"}}
+[2026-07-15 12:06:25] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:25] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-15 12:06:25] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-15 12:06:25] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:27] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"A6kpXnpginuzvS7YCOVI63Z"}}
+[2026-07-15 12:06:27] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"A6kpXnpginuzvS7YCOVI63Z"}}
+[2026-07-15 12:06:27] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:27] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-15 12:06:27] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-15 12:06:27] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:35] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AwFubmPYxtGIRFRXzJ_DHni"}}
+[2026-07-15 12:06:35] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AwFubmPYxtGIRFRXzJ_DHni"}}
+[2026-07-15 12:06:35] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:35] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-15 12:06:35] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-15 12:06:35] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:36] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"A7XAV5M1gZAg8-m_oylgypO"}}
+[2026-07-15 12:06:36] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"A7XAV5M1gZAg8-m_oylgypO"}}
+[2026-07-15 12:06:36] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:36] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-15 12:06:36] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-15 12:06:36] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:38] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AlaZRpJ19DvTNw3g1u8pqNa"}}
+[2026-07-15 12:06:38] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AlaZRpJ19DvTNw3g1u8pqNa"}}
+[2026-07-15 12:06:38] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:38] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-15 12:06:38] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-15 12:06:38] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:41] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AYqErYNT0Fi07cSK8ff7Fks"}}
+[2026-07-15 12:06:41] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AYqErYNT0Fi07cSK8ff7Fks"}}
+[2026-07-15 12:06:41] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:41] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-15 12:06:41] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-15 12:06:41] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:42] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AA2-zxdF3dBYcESffJX4Wii"}}
+[2026-07-15 12:06:42] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AA2-zxdF3dBYcESffJX4Wii"}}
+[2026-07-15 12:06:42] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:42] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-15 12:06:42] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-15 12:06:42] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:45] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AmvOmH6q3H-MgoxbXDON4oH"}}
+[2026-07-15 12:06:45] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AmvOmH6q3H-MgoxbXDON4oH"}}
+[2026-07-15 12:06:45] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:45] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-15 12:06:45] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-15 12:06:45] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:46] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AHcVc0JkHkDuynuPBNHaF3P"}}
+[2026-07-15 12:06:46] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AHcVc0JkHkDuynuPBNHaF3P"}}
+[2026-07-15 12:06:47] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 12:06:47] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-15 12:06:47] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-15 12:06:47] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/4292278404435310/videos
+[2026-07-15 12:06:49] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AY7H0NsoCnEsiQXf9YHUv50"}}
+[2026-07-15 12:06:49] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AY7H0NsoCnEsiQXf9YHUv50"}}
+[2026-07-15 12:57:34] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-15 12:57:34] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461236.810810185
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 88.62031033193398 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 101.25502285060101 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 47.39600724061534 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 85.06371519019044 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 99.04207189629601 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 131.95399359620777 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4068488659672 degrees
+[2026-07-15 12:57:34] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.5989992263599 degrees
+[2026-07-15 12:57:38] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-15 12:57:38] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-15 12:57:56] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-15 12:57:56] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-15 12:58:01] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-15 12:58:01] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-15 12:58:01] [INFO] [audio_producer:generate_all_audio_async] - Loaded 12 predictions. Dispatching audio generation tasks...
+[2026-07-15 12:58:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-15 12:58:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-15 12:58:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-15 12:58:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-15 12:58:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-15 12:58:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-15 12:58:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-15 12:58:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-15 12:58:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-15 12:58:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-15 12:58:07] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-15 12:58:07] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-15 12:58:07] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-15 12:58:24] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 12:58:24] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-15 12:58:44] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-15 12:58:44] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 12:58:44] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-15 12:59:03] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-15 12:59:03] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 12:59:03] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-15 12:59:26] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-15 12:59:26] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 12:59:26] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-15 12:59:50] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-15 12:59:50] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 12:59:50] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-15 13:00:14] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-15 13:00:14] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:00:14] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-15 13:00:36] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-15 13:00:36] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:00:36] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-15 13:01:00] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-15 13:01:00] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:01:00] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-15 13:01:23] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-15 13:01:23] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:01:23] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-15 13:01:43] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-15 13:01:43] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:01:43] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-15 13:02:04] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-15 13:02:04] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:02:04] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कुंभ
+[2026-07-15 13:02:28] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कुंभ.mp4
+[2026-07-15 13:02:28] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 13:02:28] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
+[2026-07-15 13:02:50] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-15 13:02:59] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:02:59] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-15 13:02:59] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-15 13:02:59] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:01] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"Aeh1B64d63peKtjQPCCvuQf"}}
+[2026-07-15 13:03:01] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"Aeh1B64d63peKtjQPCCvuQf"}}
+[2026-07-15 13:03:01] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:01] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-15 13:03:01] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-15 13:03:01] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:03] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"APZRGOMHztezPnKZQSyyPCs"}}
+[2026-07-15 13:03:03] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"APZRGOMHztezPnKZQSyyPCs"}}
+[2026-07-15 13:03:03] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:03] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-15 13:03:03] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-15 13:03:03] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:05] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AsGuOH7Y58EjeIQ1-9S9fTd"}}
+[2026-07-15 13:03:05] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AsGuOH7Y58EjeIQ1-9S9fTd"}}
+[2026-07-15 13:03:05] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:05] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-15 13:03:05] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-15 13:03:05] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:08] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"ADeGV4UEyEEfq5BpI9Xhcdb"}}
+[2026-07-15 13:03:08] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"ADeGV4UEyEEfq5BpI9Xhcdb"}}
+[2026-07-15 13:03:08] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:08] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-15 13:03:08] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-15 13:03:08] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:10] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"ApGckmYmRb3cE1w4ci0qjW-"}}
+[2026-07-15 13:03:10] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"ApGckmYmRb3cE1w4ci0qjW-"}}
+[2026-07-15 13:03:10] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:10] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-15 13:03:10] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-15 13:03:10] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:12] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AcY-RmnljoPdyp60e4JOnF-"}}
+[2026-07-15 13:03:12] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AcY-RmnljoPdyp60e4JOnF-"}}
+[2026-07-15 13:03:12] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:12] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-15 13:03:12] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-15 13:03:12] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:15] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"ArqRB07kEDN-2wiqY5JOSR-"}}
+[2026-07-15 13:03:15] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"ArqRB07kEDN-2wiqY5JOSR-"}}
+[2026-07-15 13:03:15] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:15] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-15 13:03:15] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-15 13:03:15] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:17] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AkTFn7gqH007oH2CSI-C1ts"}}
+[2026-07-15 13:03:17] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AkTFn7gqH007oH2CSI-C1ts"}}
+[2026-07-15 13:03:17] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:17] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-15 13:03:17] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-15 13:03:17] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:19] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AxDZVhjZ5DXE9MmEecybsgX"}}
+[2026-07-15 13:03:19] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AxDZVhjZ5DXE9MmEecybsgX"}}
+[2026-07-15 13:03:19] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:19] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-15 13:03:19] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-15 13:03:19] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:21] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AzSy14iy64g1xIaJycCBoBr"}}
+[2026-07-15 13:03:21] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AzSy14iy64g1xIaJycCBoBr"}}
+[2026-07-15 13:03:21] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:21] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-15 13:03:21] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-15 13:03:21] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:23] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"Aq-4qhKLIBUPtHpCLxR4Wch"}}
+[2026-07-15 13:03:23] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"Aq-4qhKLIBUPtHpCLxR4Wch"}}
+[2026-07-15 13:03:23] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 13:03:23] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-15 13:03:23] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-15 13:03:23] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 13:03:25] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AcQw8c77WXWupQ8jozXzm2-"}}
+[2026-07-15 13:03:25] [ERROR] [app:phase6_upload] - Error in phase6_upload: Facebook API Error: {"error":{"message":"(#100) No permission to publish the video","type":"OAuthException","code":100,"fbtrace_id":"AcQw8c77WXWupQ8jozXzm2-"}}
+[2026-07-15 14:11:48] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-15 14:11:48] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461236.862361111
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 88.66950500917221 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 102.01663926685629 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 47.43185945492025 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 85.03290627191575 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 99.05340615139148 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 132.0106589738267 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.40785468603974 degrees
+[2026-07-15 14:11:48] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.5962674404402 degrees
+[2026-07-15 14:11:50] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-15 14:11:50] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-15 14:12:18] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-15 14:12:18] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-15 14:12:22] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-15 14:12:22] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-15 14:12:22] [INFO] [audio_producer:generate_all_audio_async] - Loaded 12 predictions. Dispatching audio generation tasks...
+[2026-07-15 14:12:25] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-15 14:12:26] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-15 14:12:26] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-15 14:12:26] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-15 14:12:26] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-15 14:12:26] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-15 14:12:26] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-15 14:12:27] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-15 14:12:27] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-15 14:12:27] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-15 14:12:38] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-15 14:12:38] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-15 14:12:38] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-15 14:12:41] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:12:41] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-15 14:13:01] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-15 14:13:01] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:13:01] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-15 14:13:22] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-15 14:13:22] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:13:22] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-15 14:13:44] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-15 14:13:44] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:13:44] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-15 14:14:08] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-15 14:14:08] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:14:08] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-15 14:14:29] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-15 14:14:29] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:14:29] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-15 14:14:48] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-15 14:14:48] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:14:48] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-15 14:15:09] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-15 14:15:09] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:15:09] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-15 14:15:29] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-15 14:15:29] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:15:29] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-15 14:15:48] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-15 14:15:48] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:15:48] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-15 14:16:07] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-15 14:16:07] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:16:07] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कुंभ
+[2026-07-15 14:16:29] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कुंभ.mp4
+[2026-07-15 14:16:29] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-15 14:16:29] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
+[2026-07-15 14:16:48] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-15 14:16:55] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:16:55] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-15 14:16:55] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-15 14:16:55] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:03] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 1048182461101549
+[2026-07-15 14:17:03] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:03] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-15 14:17:03] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-15 14:17:03] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:11] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 4374000546206458
+[2026-07-15 14:17:11] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:11] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-15 14:17:11] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-15 14:17:11] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:16] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 931291346665098
+[2026-07-15 14:17:16] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:16] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-15 14:17:16] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-15 14:17:16] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:29] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 27165142673182184
+[2026-07-15 14:17:29] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:29] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-15 14:17:29] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-15 14:17:29] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:37] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 1750799639275743
+[2026-07-15 14:17:37] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:37] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-15 14:17:37] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-15 14:17:37] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:43] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 2706011813114394
+[2026-07-15 14:17:43] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:43] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-15 14:17:43] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-15 14:17:43] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:52] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 1398495048801647
+[2026-07-15 14:17:52] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:52] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-15 14:17:52] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-15 14:17:52] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:17:57] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 1445300960951471
+[2026-07-15 14:17:57] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:17:57] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-15 14:17:57] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-15 14:17:57] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:18:05] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 1026144656889809
+[2026-07-15 14:18:05] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:18:05] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-15 14:18:05] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-15 14:18:05] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:18:12] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 1986630708708410
+[2026-07-15 14:18:12] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:18:12] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-15 14:18:12] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-15 14:18:12] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:18:17] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 26750718411269650
+[2026-07-15 14:18:17] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-15 14:18:17] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-15 14:18:17] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-15 14:18:17] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-15 14:18:27] [INFO] [meta_uploader:upload_video_to_facebook] - Successfully uploaded to Facebook. Video ID: 2095270841386348
+[2026-07-18 18:19:25] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:19:25] [INFO] [youtube_uploader:get_authenticated_service] - Starting local OAuth flow for YouTube authentication...
+[2026-07-18 18:20:04] [INFO] [automation:run_headless_pipeline] - 🚀 Starting Automated Pandit Ji Pipeline...
+[2026-07-18 18:20:04] [INFO] [automation:run_headless_pipeline] - [Phase 1] Calculating Gochar...
+[2026-07-18 18:20:04] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461240.0347685185
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 91.69720631668966 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 146.84908365431968 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 49.63212155276239 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 83.35961925511539 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 99.75207642307787 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 135.48274177273265 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4610653657808 degrees
+[2026-07-18 18:20:04] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.4281552739758 degrees
+[2026-07-18 18:20:04] [INFO] [automation:run_headless_pipeline] - [Phase 2] Invoking Gemini AI...
+[2026-07-18 18:20:04] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-18 18:20:32] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-18 18:20:32] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-18 18:20:32] [INFO] [automation:run_headless_pipeline] - [Phase 3] Generating Audio & Subtitles...
+[2026-07-18 18:20:32] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-18 18:20:32] [INFO] [audio_producer:generate_all_audio_async] - Loaded 12 predictions. Dispatching audio generation tasks...
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-18 18:20:35] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-18 18:20:36] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-18 18:20:36] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-18 18:20:36] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-18 18:20:37] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-18 18:20:37] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-18 18:20:37] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-18 18:20:37] [INFO] [automation:run_headless_pipeline] - [Phase 4] Rendering Individual Shorts...
+[2026-07-18 18:20:37] [INFO] [automation:run_headless_pipeline] -   -> Rendering मेष...
+[2026-07-18 18:20:37] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-18 18:20:55] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-18 18:20:55] [INFO] [automation:run_headless_pipeline] -   -> Rendering वृषभ...
+[2026-07-18 18:20:55] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-18 18:21:14] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-18 18:21:14] [INFO] [automation:run_headless_pipeline] -   -> Rendering मिथुन...
+[2026-07-18 18:21:14] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-18 18:21:33] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-18 18:21:33] [INFO] [automation:run_headless_pipeline] -   -> Rendering कर्क...
+[2026-07-18 18:21:33] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-18 18:21:52] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-18 18:21:52] [INFO] [automation:run_headless_pipeline] -   -> Rendering सिंह...
+[2026-07-18 18:21:52] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-18 18:22:12] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-18 18:22:12] [INFO] [automation:run_headless_pipeline] -   -> Rendering कन्या...
+[2026-07-18 18:22:12] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-18 18:22:30] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-18 18:22:30] [INFO] [automation:run_headless_pipeline] -   -> Rendering तुला...
+[2026-07-18 18:22:30] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-18 18:22:48] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-18 18:22:48] [INFO] [automation:run_headless_pipeline] -   -> Rendering वृश्चिक...
+[2026-07-18 18:22:48] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-18 18:23:07] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-18 18:23:07] [INFO] [automation:run_headless_pipeline] -   -> Rendering धनु...
+[2026-07-18 18:23:07] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-18 18:23:26] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-18 18:23:26] [INFO] [automation:run_headless_pipeline] -   -> Rendering मकर...
+[2026-07-18 18:23:26] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-18 18:23:43] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-18 18:23:43] [INFO] [automation:run_headless_pipeline] -   -> Rendering कुंभ...
+[2026-07-18 18:23:43] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कुंभ
+[2026-07-18 18:23:49] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:23:49] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-18 18:23:49] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/मेष.mp4
+[2026-07-18 18:23:49] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:23:49] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:23:54] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: 0EF8xIOAE0o
+[2026-07-18 18:23:54] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:23:54] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-18 18:23:54] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/वृषभ.mp4
+[2026-07-18 18:23:54] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:23:54] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:23:57] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: 9GumyQkrdoo
+[2026-07-18 18:23:57] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:23:57] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-18 18:23:57] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/मिथुन.mp4
+[2026-07-18 18:23:57] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:23:57] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:02] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: pbTaw29SjJA
+[2026-07-18 18:24:02] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:02] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-18 18:24:02] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/कर्क.mp4
+[2026-07-18 18:24:02] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:02] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:04] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कुंभ.mp4
+[2026-07-18 18:24:04] [INFO] [automation:run_headless_pipeline] -   -> Rendering मीन...
+[2026-07-18 18:24:04] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
+[2026-07-18 18:24:06] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: Np7zPgwGetA
+[2026-07-18 18:24:06] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:06] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-18 18:24:06] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/सिंह.mp4
+[2026-07-18 18:24:06] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:06] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:10] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: foKvBiQK268
+[2026-07-18 18:24:10] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:10] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-18 18:24:10] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/कन्या.mp4
+[2026-07-18 18:24:10] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:10] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:14] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: 1erc68oBiUg
+[2026-07-18 18:24:14] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:14] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-18 18:24:14] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/तुला.mp4
+[2026-07-18 18:24:14] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:14] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:18] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: gmmocyaVXr0
+[2026-07-18 18:24:18] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:18] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-18 18:24:18] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/वृश्चिक.mp4
+[2026-07-18 18:24:18] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:18] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:20] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-18 18:24:20] [INFO] [automation:run_headless_pipeline] - [Phase 5] Combining Master Video...
+[2026-07-18 18:24:20] [INFO] [video_renderer:combine_all_videos] - Starting Phase 5: Combining all 12 videos into Master Video
+[2026-07-18 18:24:23] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: uCcrUErkUXA
+[2026-07-18 18:24:23] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:23] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-18 18:24:23] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/धनु.mp4
+[2026-07-18 18:24:23] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:23] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:29] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: _hffZU7GH5o
+[2026-07-18 18:24:29] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:29] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-18 18:24:29] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/मकर.mp4
+[2026-07-18 18:24:29] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:29] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:32] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: SAFqSvWlL4Q
+[2026-07-18 18:24:33] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:33] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-18 18:24:33] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/कुंभ.mp4
+[2026-07-18 18:24:33] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:33] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:36] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: 61bJA47HRdQ
+[2026-07-18 18:24:36] [INFO] [app:phase6_upload] - API Request: POST /api/phase6/upload
+[2026-07-18 18:24:36] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-18 18:24:36] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/मीन.mp4
+[2026-07-18 18:24:36] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:37] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:40] [INFO] [video_renderer:combine_all_videos] - Phase 5 Complete: Master video saved to static/video/master_all_rasis.mp4
+[2026-07-18 18:24:40] [INFO] [automation:run_headless_pipeline] - [Phase 6] Starting Social Media Uploads...
+[2026-07-18 18:24:40] [INFO] [automation:run_headless_pipeline] -   -> Uploading Master to YouTube...
+[2026-07-18 18:24:40] [DEBUG] [social_metadata:generate_metadata_for_master] - Generating SEO Metadata for Master Video
+[2026-07-18 18:24:40] [INFO] [youtube_uploader:upload_video_to_youtube] - Starting YouTube Upload for static/video/master_all_rasis.mp4
+[2026-07-18 18:24:40] [DEBUG] [youtube_uploader:get_authenticated_service] - Found existing token.json, loading credentials...
+[2026-07-18 18:24:40] [DEBUG] [youtube_uploader:upload_video_to_youtube] - Executing YouTube insert request...
+[2026-07-18 18:24:41] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: t4bCrxTUqWE
+[2026-07-18 18:24:49] [INFO] [youtube_uploader:upload_video_to_youtube] - Successfully uploaded to YouTube. Video ID: UZigN4nNLSg
+[2026-07-18 18:24:49] [INFO] [automation:run_headless_pipeline] -      Success! YouTube ID: UZigN4nNLSg
+[2026-07-18 18:24:49] [INFO] [automation:run_headless_pipeline] -   -> Uploading मेष Short to Meta...
+[2026-07-18 18:24:49] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मेष Short
+[2026-07-18 18:24:49] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मेष.mp4
+[2026-07-18 18:24:49] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:24:52] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:52 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AGrR-5r50_rRLPrE_g1G2vH"}}
+[2026-07-18 18:24:52] [ERROR] [automation:run_headless_pipeline] -      Failed to upload मेष to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:52 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AGrR-5r50_rRLPrE_g1G2vH"}}
+[2026-07-18 18:24:52] [INFO] [automation:run_headless_pipeline] -   -> Uploading वृषभ Short to Meta...
+[2026-07-18 18:24:52] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृषभ Short
+[2026-07-18 18:24:52] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृषभ.mp4
+[2026-07-18 18:24:52] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:24:54] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:54 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AdoBME_RYlcDT_iBPOwIeJb"}}
+[2026-07-18 18:24:54] [ERROR] [automation:run_headless_pipeline] -      Failed to upload वृषभ to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:54 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AdoBME_RYlcDT_iBPOwIeJb"}}
+[2026-07-18 18:24:54] [INFO] [automation:run_headless_pipeline] -   -> Uploading मिथुन Short to Meta...
+[2026-07-18 18:24:54] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मिथुन Short
+[2026-07-18 18:24:54] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मिथुन.mp4
+[2026-07-18 18:24:54] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:24:56] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:56 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AHD9iIOL-GaA4AdnMX5TbW3"}}
+[2026-07-18 18:24:56] [ERROR] [automation:run_headless_pipeline] -      Failed to upload मिथुन to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:56 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AHD9iIOL-GaA4AdnMX5TbW3"}}
+[2026-07-18 18:24:56] [INFO] [automation:run_headless_pipeline] -   -> Uploading कर्क Short to Meta...
+[2026-07-18 18:24:56] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कर्क Short
+[2026-07-18 18:24:56] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कर्क.mp4
+[2026-07-18 18:24:56] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:24:58] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:58 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AbkqvwQIkmh_j9QATgL_7gC"}}
+[2026-07-18 18:24:58] [ERROR] [automation:run_headless_pipeline] -      Failed to upload कर्क to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:54:58 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AbkqvwQIkmh_j9QATgL_7gC"}}
+[2026-07-18 18:24:58] [INFO] [automation:run_headless_pipeline] -   -> Uploading सिंह Short to Meta...
+[2026-07-18 18:24:58] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for सिंह Short
+[2026-07-18 18:24:58] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/सिंह.mp4
+[2026-07-18 18:24:58] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:00] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:00 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A5DPCbFNFxAQv1gNEq5IHiH"}}
+[2026-07-18 18:25:00] [ERROR] [automation:run_headless_pipeline] -      Failed to upload सिंह to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:00 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A5DPCbFNFxAQv1gNEq5IHiH"}}
+[2026-07-18 18:25:00] [INFO] [automation:run_headless_pipeline] -   -> Uploading कन्या Short to Meta...
+[2026-07-18 18:25:00] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कन्या Short
+[2026-07-18 18:25:00] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कन्या.mp4
+[2026-07-18 18:25:00] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:02] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:01 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AKV7puBUmxGQXaVtuJUFbdO"}}
+[2026-07-18 18:25:02] [ERROR] [automation:run_headless_pipeline] -      Failed to upload कन्या to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:01 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AKV7puBUmxGQXaVtuJUFbdO"}}
+[2026-07-18 18:25:02] [INFO] [automation:run_headless_pipeline] -   -> Uploading तुला Short to Meta...
+[2026-07-18 18:25:02] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for तुला Short
+[2026-07-18 18:25:02] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/तुला.mp4
+[2026-07-18 18:25:02] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:03] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:03 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A5D2Wl3HFnjawi24ZHXqfX-"}}
+[2026-07-18 18:25:03] [ERROR] [automation:run_headless_pipeline] -      Failed to upload तुला to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:03 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"A5D2Wl3HFnjawi24ZHXqfX-"}}
+[2026-07-18 18:25:03] [INFO] [automation:run_headless_pipeline] -   -> Uploading वृश्चिक Short to Meta...
+[2026-07-18 18:25:03] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for वृश्चिक Short
+[2026-07-18 18:25:03] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/वृश्चिक.mp4
+[2026-07-18 18:25:03] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:06] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:06 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AqTWk6_mETwu0VgebKjB_q8"}}
+[2026-07-18 18:25:06] [ERROR] [automation:run_headless_pipeline] -      Failed to upload वृश्चिक to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:06 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AqTWk6_mETwu0VgebKjB_q8"}}
+[2026-07-18 18:25:06] [INFO] [automation:run_headless_pipeline] -   -> Uploading धनु Short to Meta...
+[2026-07-18 18:25:06] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for धनु Short
+[2026-07-18 18:25:06] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/धनु.mp4
+[2026-07-18 18:25:06] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:13] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:13 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AtyZIwMpIEzkD71HxnLlOq2"}}
+[2026-07-18 18:25:13] [ERROR] [automation:run_headless_pipeline] -      Failed to upload धनु to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:13 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AtyZIwMpIEzkD71HxnLlOq2"}}
+[2026-07-18 18:25:13] [INFO] [automation:run_headless_pipeline] -   -> Uploading मकर Short to Meta...
+[2026-07-18 18:25:13] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मकर Short
+[2026-07-18 18:25:13] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मकर.mp4
+[2026-07-18 18:25:13] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:14] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:14 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AIpRBE94SCavGcX6iMUqOop"}}
+[2026-07-18 18:25:14] [ERROR] [automation:run_headless_pipeline] -      Failed to upload मकर to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:14 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AIpRBE94SCavGcX6iMUqOop"}}
+[2026-07-18 18:25:14] [INFO] [automation:run_headless_pipeline] -   -> Uploading कुंभ Short to Meta...
+[2026-07-18 18:25:14] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for कुंभ Short
+[2026-07-18 18:25:14] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/कुंभ.mp4
+[2026-07-18 18:25:14] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:16] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:16 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"APWr1XC22WUnMOuK1zmIXD0"}}
+[2026-07-18 18:25:16] [ERROR] [automation:run_headless_pipeline] -      Failed to upload कुंभ to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:16 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"APWr1XC22WUnMOuK1zmIXD0"}}
+[2026-07-18 18:25:16] [INFO] [automation:run_headless_pipeline] -   -> Uploading मीन Short to Meta...
+[2026-07-18 18:25:16] [DEBUG] [social_metadata:generate_metadata_for_rasi] - Generating SEO Metadata for मीन Short
+[2026-07-18 18:25:16] [INFO] [meta_uploader:upload_video_to_facebook] - Starting Facebook Page upload for static/video/मीन.mp4
+[2026-07-18 18:25:16] [DEBUG] [meta_uploader:upload_video_to_facebook] - Executing POST request to https://graph.facebook.com/v19.0/1138595696014853/videos
+[2026-07-18 18:25:18] [ERROR] [meta_uploader:upload_video_to_facebook] - Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:18 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AoSpiBVEGosd8FDiBAf3AOw"}}
+[2026-07-18 18:25:18] [ERROR] [automation:run_headless_pipeline] -      Failed to upload मीन to Meta: Facebook API Error: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 15-Jul-26 03:00:00 PDT. The current time is Saturday, 18-Jul-26 05:55:18 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AoSpiBVEGosd8FDiBAf3AOw"}}
+[2026-07-18 18:25:18] [INFO] [automation:run_headless_pipeline] - ✨ Pandit Ji Automation Complete!

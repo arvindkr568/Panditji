@@ -1,0 +1,289 @@
+:root {
+    --bg-dark: #0f172a;
+    --gold: #f59e0b;
+    --gold-light: #fcd34d;
+    --purple: #c084fc;
+    --card-bg: rgba(30, 41, 59, 0.7);
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.background-stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, #ffffff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 40px 70px, #ffffff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 50px 160px, #ffffff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 90px 40px, #ffffff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 130px 80px, #ffffff, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    opacity: 0.3;
+    z-index: -1;
+    animation: twinkle 5s infinite linear;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.2; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0.2; }
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    z-index: 1;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: var(--text-main);
+}
+
+h1 span {
+    color: var(--gold);
+}
+
+header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.phase-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: var(--gold);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+button {
+    background: linear-gradient(135deg, var(--gold), #d97706);
+    color: #fff;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.3);
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+button:hover:not(:disabled) {
+    transform: translateY(-3px) scale(1.02);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.glass {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+}
+
+.summary-card {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-top: 4px solid var(--gold);
+}
+
+.summary-card h3 {
+    font-size: 1.2rem;
+    color: var(--gold-light);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.summary-card p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.meta-info {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.ai-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.planet-card, .prediction-card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.prediction-card {
+    border-top: 3px solid var(--purple);
+    text-align: left;
+    align-items: flex-start;
+}
+
+.planet-card:hover, .prediction-card:hover {
+    transform: translateY(-5px);
+    background: rgba(45, 55, 72, 0.9);
+}
+
+.planet-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+}
+
+.prediction-rasi {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--purple);
+    margin-bottom: 1rem;
+}
+
+.prediction-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+.planet-degree {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.planet-rasi {
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: rgba(245, 158, 11, 0.1);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Spinner */
+#loading, #loading-ai, #loading-audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.audio-card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid #10b981;
+}
+
+.audio-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #10b981;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+    border-radius: 50px;
+}
+
+.video-card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid #ef4444;
+}
+
+.video-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #ef4444;
+}
+
+video {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    background: #000;
+}

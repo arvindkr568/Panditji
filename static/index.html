@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandit Ji - Phase 1 & 2 Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-stars"></div>
+    <div class="container">
+        <header>
+            <h1>Pandit Ji <span>Engine</span></h1>
+            <p>Phase 1 & 2: Astronomical Engine & AI Rashi Bhavishya</p>
+        </header>
+
+        <!-- Phase 1: Astronomy -->
+        <section class="phase-section">
+            <h2>Phase 1: Astronomical Engine</h2>
+            <div class="controls">
+                <button id="calculate-btn">1. Calculate Daily Gochar</button>
+            </div>
+
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Consulting the stars... Calculating Lahiri Ayanamsa...</p>
+            </div>
+
+            <div id="results" class="hidden">
+                <div class="summary-card glass">
+                    <h3>Gochar Summary (AI Prompt Payload)</h3>
+                    <p id="gochar-string"></p>
+                </div>
+                
+                <div class="meta-info">
+                    <span id="utc-time"></span> | 
+                    <span id="julian-day"></span>
+                </div>
+
+                <div class="grid" id="planets-grid">
+                    <!-- Planet cards -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 2: AI Content Generator -->
+        <section class="phase-section" id="phase2-section" style="display: none; margin-top: 4rem;">
+            <h2 style="color: #c084fc;">Phase 2: AI Content Generator</h2>
+            <div class="controls">
+                <button id="generate-ai-btn" style="background: linear-gradient(135deg, #c084fc, #7e22ce);">
+                    2. Invoke Pandit Ji AI (Generate Horoscopes)
+                </button>
+            </div>
+
+            <div id="loading-ai" class="hidden">
+                <div class="spinner" style="border-top-color: #c084fc;"></div>
+                <p>Pandit Ji is analyzing the Gochar and writing 12 predictions in pure Hindi...</p>
+            </div>
+
+            <div id="ai-results" class="hidden">
+                <div class="grid ai-grid" id="predictions-grid">
+                    <!-- AI Predictions -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 3: Audio Production Line -->
+        <section class="phase-section" id="phase3-section" style="display: none; margin-top: 4rem;">
+            <h2 style="color: #10b981;">Phase 3: Audio Production Line</h2>
+            <div class="controls">
+                <button id="generate-audio-btn" style="background: linear-gradient(135deg, #10b981, #047857);">
+                    3. Generate Pandit Ji Audio (Voice: hi-IN-MadhurNeural)
+                </button>
+            </div>
+
+            <div id="loading-audio" class="hidden">
+                <div class="spinner" style="border-top-color: #10b981;"></div>
+                <p>Generating and saving 12 pristine neural audio files...</p>
+            </div>
+
+            <div id="audio-results" class="hidden">
+                <div class="grid audio-grid" id="audio-grid">
+                    <!-- Audio Players -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 4: Video Rendering Engine -->
+        <section class="phase-section" id="phase4-section" style="display: none; margin-top: 4rem;">
+            <h2 style="color: #ef4444;">Phase 4: Video Rendering Engine</h2>
+            <div class="controls">
+                <button id="generate-video-btn" style="background: linear-gradient(135deg, #ef4444, #991b1b);">
+                    4. Render Final Videos (720x1280)
+                </button>
+            </div>
+
+            <div id="loading-video" class="hidden">
+                <div class="spinner" style="border-top-color: #ef4444;"></div>
+                <p>Compositing audio, text, and images. Rendering 12 videos to MP4... (This will take a few minutes)</p>
+            </div>
+
+            <div id="video-results" class="hidden">
+                <div class="grid video-grid" id="video-grid">
+                    <!-- Video Players -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 6: Social Media Publisher -->
+        <section class="phase-section" id="phase6-section" style="display: none; margin-top: 4rem;">
+            <h2 style="color: #3b82f6;">Phase 6: Social Media Publisher</h2>
+            
+            <div class="controls" style="flex-direction: column; gap: 1rem;">
+                <button id="combine-video-btn" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                    5. Combine All Videos (Master File)
+                </button>
+                
+                <button id="upload-master-youtube-btn" style="background: linear-gradient(135deg, #ef4444, #7f1d1d);">
+                    6. Upload Master Video to YouTube
+                </button>
+                
+                <button id="upload-shorts-youtube-btn" style="background: linear-gradient(135deg, #ef4444, #b91c1c);">
+                    7. Upload 12 Shorts to YouTube
+                </button>
+
+                <button id="upload-shorts-meta-btn" style="background: linear-gradient(135deg, #e1306c, #833ab4);">
+                    8. Upload 12 Shorts to Facebook & Instagram (Meta)
+                </button>
+            </div>
+
+            <div id="loading-phase6" class="hidden">
+                <div class="spinner" style="border-top-color: #3b82f6;"></div>
+                <p id="phase6-status-text">Processing...</p>
+            </div>
+
+            <div id="phase6-results" class="hidden">
+                <div class="summary-card glass" id="phase6-output" style="border-top-color: #3b82f6;">
+                    <!-- Upload results go here -->
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

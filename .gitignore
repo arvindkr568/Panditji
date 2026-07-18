@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# API Secrets & Tokens (CRITICAL: DO NOT UPLOAD THESE)
+client_secrets.json
+token.json
+
+# Generated Media & Data (Heavy files)
+static/audio/*.mp3
+static/audio/*.vtt
+static/video/*.mp4
+data/daily_predictions.json
+
+# OS Files
+.DS_Store
+Thumbs.db

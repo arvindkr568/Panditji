@@ -1,0 +1,80 @@
+graph TD
+    %% Styling Configuration
+    classDef trigger fill:#ff9f43,stroke:#333,stroke-width:2px,color:#fff;
+    classDef process fill:#54a0ff,stroke:#333,stroke-width:2px,color:#fff;
+    classDef data fill:#1dd1a1,stroke:#333,stroke-width:2px,color:#fff;
+    classDef external fill:#ee5253,stroke:#333,stroke-width:2px,color:#fff;
+    classDef output fill:#feca57,stroke:#333,stroke-width:2px,color:#fff;
+    classDef config fill:#c8d6e5,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5;
+
+    %% Phase 1: Astronomical Calculation Engine
+    subgraph Phase 1: Astronomical Calculation Engine
+        direction TB
+        Cron(("Cron Trigger<br>(Runs Daily)")):::trigger
+        InitTime["Initialize Time<br>Convert to UTC"]:::process
+        CalcJulian["Calculate Julian Day<br>(Continuous Astronomy Time)"]:::process
+        CalcDegrees["Calculate Celestial Degrees<br>(Using pyswisseph/astronomy-engine)"]:::process
+        SubAyanamsa["Subtract Lahiri Ayanamsa<br>(Tropical -> Sidereal/Vedic)"]:::process
+        MapRasi["Map Degrees into 12 Rasis<br>(Determine Gochar)"]:::process
+        GocharStr[/"Formatted Gochar String<br>e.g., 'Moon in Taurus...' "/]:::data
+        
+        Cron --> InitTime
+        InitTime --> CalcJulian
+        CalcJulian --> CalcDegrees
+        CalcDegrees --> SubAyanamsa
+        SubAyanamsa --> MapRasi
+        MapRasi --> GocharStr
+    end
+
+    %% Phase 2: AI Content Generator
+    subgraph Phase 2: AI Content Generator
+        direction TB
+        BuildPrompt["Construct Prompt Payload<br>(Inject Gochar String)"]:::process
+        SysPrompt[/"System Prompt Template<br>(Expert Vedic Astrologer)"/]:::config
+        EnforceRules["Enforce Output Rules<br>(3 Sentences, Hindi only, 12 Signs)"]:::process
+        LLM_API(("Call GenAI API<br>(e.g., Gemini)")):::external
+        ParseResponse["Parse & Validate Response<br>(Ensure 12 distinct signs present)"]:::process
+        JSONData[/"Hindi Text JSON / DB"/]:::data
+        
+        GocharStr --> BuildPrompt
+        SysPrompt -.-> BuildPrompt
+        BuildPrompt --> EnforceRules
+        EnforceRules --> LLM_API
+        LLM_API --> ParseResponse
+        ParseResponse --> JSONData
+    end
+
+    %% Phase 3: Audio Production Line
+    subgraph Phase 3: Audio Production Line
+        direction TB
+        LoopJSON["Loop through JSON<br>(12 Rasis)"]:::process
+        TTS_API(("Call TTS API<br>(Google Cloud / ElevenLabs)")):::external
+        VoiceConfig[/"Premium Hindi Voice Model"/]:::config
+        SaveAudio["Save Audio Assets Locally"]:::process
+        AudioFiles[/"Generated .mp3 Files<br>(aries_audio.mp3, etc.)"/]:::data
+        
+        JSONData --> LoopJSON
+        LoopJSON --> TTS_API
+        VoiceConfig -.-> TTS_API
+        TTS_API --> SaveAudio
+        SaveAudio --> AudioFiles
+    end
+
+    %% Phase 4: Video Rendering Engine
+    subgraph Phase 4: Video Rendering Engine
+        direction TB
+        LoadAssets["Load Static Visual Templates<br>(Starry BG, Logo, Icons)"]:::process
+        GenCaptions["Generate Dynamic Captions<br>(From Hindi Text)"]:::process
+        ApplyFont["Apply Hindi Unicode Font<br>(e.g., Noto Sans Devanagari)"]:::process
+        CalcDuration["Calculate Audio Durations<br>(Based on .mp3 length)"]:::process
+        StitchVideo["Layer & Stitch Video<br>(using FFmpeg/MoviePy)"]:::process
+        FinalVideo[/"Final .mp4 Video<br>(Ready for Upload)"/]:::output
+        
+        AudioFiles --> CalcDuration
+        JSONData --> GenCaptions
+        LoadAssets --> StitchVideo
+        GenCaptions --> ApplyFont
+        ApplyFont --> StitchVideo
+        CalcDuration --> StitchVideo
+        StitchVideo --> FinalVideo
+    end
