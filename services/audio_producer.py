@@ -24,7 +24,13 @@ async def generate_single_audio(text: str, rasi: str, audio_dir: str):
         stderr=subprocess.PIPE
     )
     
-    await process.communicate()
+    stdout, stderr = await process.communicate()
+    
+    if process.returncode != 0:
+        err_msg = stderr.decode('utf-8').strip()
+        logger.error(f"edge-tts failed for Rasi {rasi} (Exit Code: {process.returncode}). Error: {err_msg}")
+        raise RuntimeError(f"edge-tts failed for {rasi}: {err_msg}")
+        
     logger.debug(f"Generated Audio & VTT for Rasi: {rasi}")
     return safe_filename
 
