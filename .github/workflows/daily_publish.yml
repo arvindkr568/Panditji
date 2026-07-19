@@ -24,10 +24,10 @@ jobs:
     
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.13'
         cache: 'pip'
@@ -58,3 +58,11 @@ jobs:
         META_DRY_RUN: ${{ vars.META_DRY_RUN }}
       run: |
         python automation.py
+        
+    - name: Upload Execution Logs
+      if: always() # Ensure logs are uploaded even if the pipeline fails
+      uses: actions/upload-artifact@v4
+      with:
+        name: pandit-ji-logs
+        path: logs/panditji.log
+        retention-days: 7
