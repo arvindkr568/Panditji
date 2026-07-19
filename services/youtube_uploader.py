@@ -50,7 +50,7 @@ def upload_video_to_youtube(video_path, metadata):
     logger.info(f"Starting YouTube Upload for {video_path}")
     youtube = get_authenticated_service()
 
-    privacy_status = os.environ.get('YOUTUBE_PRIVACY_STATUS', 'private')
+    privacy_status = os.environ.get('YOUTUBE_PRIVACY_STATUS') or 'private'
     logger.info(f"YouTube Upload Privacy Status: {privacy_status}")
 
     body = {
