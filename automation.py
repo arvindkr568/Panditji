@@ -51,7 +51,19 @@ def run_headless_pipeline():
     except Exception as e:
         logger.error(f"     Failed to upload Master to YouTube: {e}")
         
-    # 6B: Upload Shorts to Meta (Facebook/Instagram)
+    # 6B: Upload Shorts to YouTube
+    logger.info("[Phase 6B] Uploading Shorts to YouTube...")
+    for rasi in predictions.keys():
+        logger.info(f"  -> Uploading {rasi} Short to YouTube...")
+        try:
+            rasi_meta = generate_metadata_for_rasi(rasi)
+            yt_id = upload_video_to_youtube(f"static/video/{rasi}.mp4", rasi_meta)
+            logger.info(f"     Success! YouTube ID: {yt_id}")
+        except Exception as e:
+            logger.error(f"     Failed to upload {rasi} to YouTube: {e}")
+
+    # 6C: Upload Shorts to Meta (Facebook/Instagram)
+    logger.info("[Phase 6C] Uploading Shorts to Meta...")
     for rasi in predictions.keys():
         logger.info(f"  -> Uploading {rasi} Short to Meta...")
         try:
