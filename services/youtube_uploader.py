@@ -17,20 +17,29 @@ def get_authenticated_service():
         logger.debug("Found existing token.json, loading credentials...")
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
         
-    # If there are no (valid) credentials available, let the user log in.
+    # If there are no (valid) credentials available, let the user log in or refresh.
     if not creds or not creds.valid:
-        if not os.path.exists('client_secrets.json'):
-            logger.error("client_secrets.json is missing for YouTube authentication.")
-            raise FileNotFoundError("client_secrets.json is missing! You must create OAuth 2.0 credentials in Google Cloud Console and save them to the project root.")
+        if creds and creds.expired and creds.refresh_token:
+            from google.auth.transport.requests import Request
+            logger.info("Refreshing expired YouTube access token...")
+            creds.refresh(Request())
             
-        logger.info("Starting local OAuth flow for YouTube authentication...")
-        flow = InstalledAppFlow.from_client_secrets_file('client_secrets.json', SCOPES)
-        # We run a local server to capture the authorization code
-        creds = flow.run_local_server(port=0)
-        
-        # Save the credentials for the next run
-        with open('token.json', 'w') as token_file:
-            token_file.write(creds.to_json())
+            # Save the refreshed credentials
+            with open('token.json', 'w') as token_file:
+                token_file.write(creds.to_json())
+        else:
+            if not os.path.exists('client_secrets.json'):
+                logger.error("client_secrets.json is missing for YouTube authentication.")
+                raise FileNotFoundError("client_secrets.json is missing! You must create OAuth 2.0 credentials in Google Cloud Console and save them to the project root.")
+                
+            logger.info("Starting local OAuth flow for YouTube authentication...")
+            flow = InstalledAppFlow.from_client_secrets_file('client_secrets.json', SCOPES)
+            # We run a local server to capture the authorization code
+            creds = flow.run_local_server(port=0)
+            
+            # Save the credentials for the next run
+            with open('token.json', 'w') as token_file:
+                token_file.write(creds.to_json())
             
     return build('youtube', 'v3', credentials=creds)
 
