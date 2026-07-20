@@ -13,26 +13,33 @@ async def generate_single_audio(text: str, rasi: str, audio_dir: str):
     mp3_path = os.path.join(audio_dir, f"{safe_filename}.mp3")
     vtt_path = os.path.join(audio_dir, f"{safe_filename}.vtt")
     
-    # Run the edge-tts CLI command asynchronously to generate both media and subtitles
-    process = await asyncio.create_subprocess_exec(
-        "edge-tts", 
-        "--voice", VOICE_MODEL,
-        "--text", text, 
-        "--write-media", mp3_path, 
-        "--write-subtitles", vtt_path,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE
-    )
-    
-    stdout, stderr = await process.communicate()
-    
-    if process.returncode != 0:
-        err_msg = stderr.decode('utf-8').strip()
-        logger.error(f"edge-tts failed for Rasi {rasi} (Exit Code: {process.returncode}). Error: {err_msg}")
-        raise RuntimeError(f"edge-tts failed for {rasi}: {err_msg}")
+    max_retries = 3
+    for attempt in range(1, max_retries + 1):
+        # Run the edge-tts CLI command asynchronously
+        process = await asyncio.create_subprocess_exec(
+            "edge-tts", 
+            "--voice", VOICE_MODEL,
+            "--text", text, 
+            "--write-media", mp3_path, 
+            "--write-subtitles", vtt_path,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE
+        )
         
-    logger.debug(f"Generated Audio & VTT for Rasi: {rasi}")
-    return safe_filename
+        stdout, stderr = await process.communicate()
+        
+        if process.returncode == 0:
+            logger.debug(f"Generated Audio & VTT for Rasi: {rasi}")
+            return safe_filename
+            
+        err_msg = stderr.decode('utf-8').strip()
+        logger.warning(f"edge-tts attempt {attempt} failed for {rasi}. Error: {err_msg}")
+        
+        if attempt < max_retries:
+            await asyncio.sleep(2)  # Wait before retrying
+        else:
+            logger.error(f"edge-tts completely failed for Rasi {rasi} after {max_retries} attempts.")
+            raise RuntimeError(f"edge-tts failed for {rasi}: {err_msg}")
 
 async def generate_all_audio_async():
     """
@@ -56,9 +63,16 @@ async def generate_all_audio_async():
     tasks = []
     generated_files = []
     
+    # Limit concurrency to 3 simultaneous edge-tts processes to avoid rate limiting
+    semaphore = asyncio.Semaphore(3)
+    
+    async def bounded_generate(text_val, rasi_val, dir_val):
+        async with semaphore:
+            return await generate_single_audio(text_val, rasi_val, dir_val)
+    
     for rasi, text in predictions.items():
-        # Schedule the async generation task
-        task = asyncio.create_task(generate_single_audio(text, rasi, audio_dir))
+        # Schedule the async generation task with concurrency limit
+        task = asyncio.create_task(bounded_generate(text, rasi, audio_dir))
         tasks.append(task)
         
         # Keep track of the URL path for the frontend
