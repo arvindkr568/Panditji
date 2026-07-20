@@ -49,9 +49,19 @@ def upload_video_to_youtube(video_path, metadata):
     """
     logger.info(f"Starting YouTube Upload for {video_path}")
     youtube = get_authenticated_service()
-
-    privacy_status = os.environ.get('YOUTUBE_PRIVACY_STATUS') or 'private'
-    logger.info(f"YouTube Upload Privacy Status: {privacy_status}")
+    
+    # Check if we are running in the staging environment (dry run) or production
+    is_dry_run = os.environ.get('META_DRY_RUN', 'true').lower() == 'true'
+    
+    # If the GitHub variable is explicitly set, use it.
+    # Otherwise, fallback to 'public' for Production, and 'private' for Staging.
+    explicit_status = os.environ.get('YOUTUBE_PRIVACY_STATUS')
+    if explicit_status:
+        privacy_status = explicit_status
+    else:
+        privacy_status = 'private' if is_dry_run else 'public'
+        
+    logger.info(f"YouTube Upload Privacy Status: {privacy_status} (Dry Run: {is_dry_run})")
 
     body = {
         'snippet': {
