@@ -55,16 +55,16 @@ def generate_daily_horoscopes(gochar_string: str) -> dict:
     
     CRITICAL RULES:
     1. For each Rasi, write EXACTLY 5 sentences. No more, no less.
-    2. The very first sentence MUST start by announcing today's date in both Hindi and English. 
-       Format: "आज {hin_date_str}, यानी {eng_date_str} के राशिफल में आपका स्वागत है।"
-    3. The remaining 4 sentences must be pure, respectful, and spiritual Hindi, using proper Vedic terminology (e.g., 'धन लाभ', 'स्वास्थ्य', 'मानसिक शांति').
+    2. The very first sentence MUST start by announcing today's date and the current Hindu calendar Tithi. 
+       Format: "आज {hin_date_str}, यानी [Insert today's correct Hindu Tithi here] के राशिफल में आपका स्वागत है।"
+    3. The remaining 4 sentences must be pure, respectful, and spiritual Hindi, using proper Vedic terminology (e.g., 'धन लाभ', 'स्वास्थ्य', 'मानसिक शांति'). The second sentence MUST begin with the Rasi name followed by 'राशि' (e.g., 'मेष राशि...').
     4. The output MUST be a valid JSON object where the keys are the exact 12 Hindi Rasi names and the values are the 5-sentence Hindi predictions.
     
     Example output format:
     {{
-        "मेष": "आज {hin_date_str}, यानी {eng_date_str} के राशिफल में आपका स्वागत है। आज आपका मन शांत रहेगा। कार्यक्षेत्र में सूर्य और मंगल के गोचर से आपको सफलता मिलेगी। धन लाभ के प्रबल योग हैं। स्वास्थ्य का विशेष ध्यान रखें।",
+        "मेष": "आज {hin_date_str}, यानी श्रावण कृष्ण पक्ष पंचमी के राशिफल में आपका स्वागत है। मेष राशि आज आपका मन शांत रहेगा। कार्यक्षेत्र में सूर्य और मंगल के गोचर से आपको सफलता मिलेगी। धन लाभ के प्रबल योग हैं। स्वास्थ्य का विशेष ध्यान रखें।",
         "वृषभ": "...",
-        ...
+        "मिथुन": "..."
     }}
     """
     
