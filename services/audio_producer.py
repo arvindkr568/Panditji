@@ -59,18 +59,24 @@ async def generate_all_audio_async():
     with open(json_path, "r", encoding="utf-8") as f:
         predictions = json.load(f)
         
-    logger.info(f"Loaded {len(predictions)} predictions. Dispatching audio generation tasks...")
+    logger.info("Dispatching audio generation tasks...")
     tasks = []
     generated_files = []
     
     # Limit concurrency to 3 simultaneous edge-tts processes to avoid rate limiting
     semaphore = asyncio.Semaphore(3)
     
-    async def bounded_generate(text_val, rasi_val, dir_val):
+    async def bounded_generate(text_val, filename_val, dir_val):
         async with semaphore:
-            return await generate_single_audio(text_val, rasi_val, dir_val)
+            return await generate_single_audio(text_val, filename_val, dir_val)
     
-    for rasi, text in predictions.items():
+    # Generate the intro audio
+    if "intro" in predictions:
+        tasks.append(asyncio.create_task(bounded_generate(predictions["intro"], "intro", audio_dir)))
+        
+    rasi_predictions = predictions.get("predictions", {})
+    
+    for rasi, text in rasi_predictions.items():
         # Schedule the async generation task with concurrency limit
         task = asyncio.create_task(bounded_generate(text, rasi, audio_dir))
         tasks.append(task)

@@ -29,11 +29,24 @@ def run_headless_pipeline():
     with open("data/daily_predictions.json", "r", encoding="utf-8") as f:
         predictions = json.load(f)
         
-    # PHASE 4: Video Rendering (Shorts)
-    logger.info("[Phase 4] Rendering Individual Shorts...")
-    for rasi in predictions.keys():
-        logger.info(f"  -> Rendering {rasi}...")
+    rasi_predictions = predictions.get("predictions", {})
+        
+    # PHASE 4: Video Rendering (Segments & Shorts)
+    logger.info("[Phase 4] Rendering Individual Video Segments...")
+    
+    if "intro" in predictions:
+        logger.info("  -> Rendering Intro segment...")
+        render_single_video("intro")
+        
+    for rasi in rasi_predictions.keys():
+        logger.info(f"  -> Rendering {rasi} segment...")
         render_single_video(rasi)
+        
+    logger.info("[Phase 4.5] Building Final Shorts...")
+    from services.video_renderer import build_short
+    for rasi in rasi_predictions.keys():
+        logger.info(f"  -> Building {rasi} Short...")
+        build_short(rasi)
         
     # PHASE 5: Combine Master Video
     logger.info("[Phase 5] Combining Master Video...")
@@ -53,22 +66,22 @@ def run_headless_pipeline():
         
     # 6B: Upload Shorts to YouTube
     logger.info("[Phase 6B] Uploading Shorts to YouTube...")
-    for rasi in predictions.keys():
+    for rasi in rasi_predictions.keys():
         logger.info(f"  -> Uploading {rasi} Short to YouTube...")
         try:
             rasi_meta = generate_metadata_for_rasi(rasi)
-            yt_id = upload_video_to_youtube(f"static/video/{rasi}.mp4", rasi_meta)
+            yt_id = upload_video_to_youtube(f"static/video/final_{rasi}.mp4", rasi_meta)
             logger.info(f"     Success! YouTube ID: {yt_id}")
         except Exception as e:
             logger.error(f"     Failed to upload {rasi} to YouTube: {e}")
 
     # 6C: Upload Shorts to Meta (Facebook/Instagram)
     logger.info("[Phase 6C] Uploading Shorts to Meta...")
-    for rasi in predictions.keys():
+    for rasi in rasi_predictions.keys():
         logger.info(f"  -> Uploading {rasi} Short to Meta...")
         try:
             rasi_meta = generate_metadata_for_rasi(rasi)
-            fb_id = upload_video_to_facebook(f"static/video/{rasi}.mp4", rasi_meta)
+            fb_id = upload_video_to_facebook(f"static/video/final_{rasi}.mp4", rasi_meta)
             logger.info(f"     Success! Facebook ID: {fb_id}")
         except Exception as e:
             logger.error(f"     Failed to upload {rasi} to Meta: {e}")
