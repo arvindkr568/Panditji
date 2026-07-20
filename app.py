@@ -9,6 +9,7 @@ from services.meta_uploader import upload_video_to_facebook
 from services.logger import logger
 
 app = Flask(__name__, static_url_path='', static_folder='static')
+app.json.ensure_ascii = False
 
 @app.route('/')
 def index():
@@ -90,6 +91,28 @@ def phase4_generate_single():
         })
     except FileNotFoundError as fnf:
         return jsonify({"error": str(fnf)}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/phase4/build_short', methods=['POST'])
+def phase4_build_short():
+    """Builds the final short by concatenating intro and rasi video."""
+    logger.info("API Request: POST /api/phase4/build_short")
+    try:
+        rasi = request.json.get('rasi')
+        if not rasi:
+            return jsonify({"error": "Missing 'rasi' in request."}), 400
+            
+        from services.video_renderer import build_short
+        final_filename = build_short(rasi)
+        
+        return jsonify({
+            "status": "success",
+            "video_file": {
+                "rasi": rasi,
+                "url": f"/video/{final_filename}"
+            }
+        })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

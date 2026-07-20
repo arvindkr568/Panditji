@@ -167,15 +167,15 @@ def render_single_video(rasi):
 
 def apply_bgm(video):
     from moviepy import AudioFileClip, CompositeAudioClip
-    from moviepy.audio.fx.volumex import volumex
-    from moviepy.audio.fx.audio_loop import audio_loop
+    from moviepy.audio.fx.MultiplyVolume import MultiplyVolume
+    from moviepy.audio.fx.AudioLoop import AudioLoop
     
     bgm_path = "static/assets/bgm.mp3"
     if os.path.exists(bgm_path):
         bgm = AudioFileClip(bgm_path)
         # Loop background music for the duration of the video
-        bgm_looped = audio_loop(bgm, duration=video.duration)
-        bgm_low = volumex(bgm_looped, 0.08) # 8% volume
+        bgm_looped = bgm.with_effects([AudioLoop(duration=video.duration)])
+        bgm_low = bgm_looped.with_effects([MultiplyVolume(0.18)]) # 8% volume
         final_audio = CompositeAudioClip([video.audio, bgm_low])
         return video.with_audio(final_audio)
     return video

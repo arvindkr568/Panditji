@@ -95,16 +95,30 @@ document.getElementById('generate-ai-btn').addEventListener('click', async () =>
         
         // Populate Grid
         grid.innerHTML = '';
-        const predictions = data.predictions;
+        const payload = data.predictions;
+        
+        // Add Intro Card
+        if (payload.intro) {
+            const introCard = document.createElement('div');
+            introCard.className = 'prediction-card glass';
+            introCard.style.border = '2px solid #c084fc'; // highlight intro
+            introCard.innerHTML = `
+                <div class="prediction-rasi">प्रस्तावना (Introduction)</div>
+                <div class="prediction-text">${payload.intro}</div>
+            `;
+            grid.appendChild(introCard);
+        }
+        
+        const rasiPredictions = payload.predictions || {};
         
         // Iterate over the JSON keys (12 Rasis)
-        Object.keys(predictions).forEach(rasi => {
+        Object.keys(rasiPredictions).forEach(rasi => {
             const card = document.createElement('div');
             card.className = 'prediction-card glass';
             
             card.innerHTML = `
                 <div class="prediction-rasi">${rasi}</div>
-                <div class="prediction-text">${predictions[rasi]}</div>
+                <div class="prediction-text">${rasiPredictions[rasi]}</div>
             `;
             grid.appendChild(card);
         });
@@ -204,12 +218,33 @@ document.getElementById('generate-video-btn').addEventListener('click', async ()
     const rasis = ["मेष", "वृषभ", "मिथुन", "कर्क", "सिंह", "कन्या", "तुला", "वृश्चिक", "धनु", "मकर", "कुंभ", "मीन"];
     let successCount = 0;
     
+    // First, render the intro segment
+    try {
+        loadingVideo.querySelector('p').textContent = `Rendering Intro segment...`;
+        await fetch('/api/phase4/generate_single', { 
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ rasi: "intro" })
+        });
+    } catch (e) { 
+        console.error("Intro render failed", e); 
+    }
+    
     for (const rasi of rasis) {
         try {
             // Update loading text
-            loadingVideo.querySelector('p').textContent = `Rendering ${rasi}... (This takes ~10 seconds)`;
+            loadingVideo.querySelector('p').textContent = `Rendering ${rasi} segment...`;
             
-            const response = await fetch('/api/phase4/generate_single', { 
+            // 1. Render the individual segment
+            await fetch('/api/phase4/generate_single', { 
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ rasi: rasi })
+            });
+            
+            // 2. Build the final concatenated short
+            loadingVideo.querySelector('p').textContent = `Building Final Short for ${rasi}...`;
+            const response = await fetch('/api/phase4/build_short', { 
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ rasi: rasi })

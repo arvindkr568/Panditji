@@ -1059,3 +1059,382 @@
 [2026-07-18 21:30:17] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
 [2026-07-18 21:30:17] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
 [2026-07-18 21:30:58] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-20 11:36:25] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 11:36:26] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 11:36:47] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 11:36:47] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.754710648
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.33890793942209 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 169.34139248875152 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.819988858871774 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.7005014592808 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.13167476953859 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.35208924657542 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4827523015157 degrees
+[2026-07-20 11:36:47] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.3370121260615 degrees
+[2026-07-20 11:36:51] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 11:36:51] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 11:37:17] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 11:37:17] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-20 11:37:59] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 11:37:59] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 11:38:01] [ERROR] [ai_generator:generate_daily_horoscopes] - Error in AI Generation: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-07-20 11:41:39] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 11:42:12] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 11:42:12] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.7584722224
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.34249856854701 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 169.38932642789305 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.822582885942644 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.69929495681203 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.13250547822787 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.35616698924537 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4827942059868 degrees
+[2026-07-20 11:42:12] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.336812792797 degrees
+[2026-07-20 11:42:15] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 11:42:15] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 11:42:36] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 11:42:36] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-20 11:43:00] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-20 11:43:01] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-20 11:43:01] [INFO] [audio_producer:generate_all_audio_async] - Dispatching audio generation tasks...
+[2026-07-20 11:43:03] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: intro
+[2026-07-20 11:43:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-20 11:43:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-20 11:43:09] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-20 11:43:09] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-20 11:43:09] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-20 11:43:11] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-20 11:43:12] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-20 11:43:14] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-20 11:43:14] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-20 11:43:16] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-20 11:43:17] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-20 11:43:18] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-20 11:43:18] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-20 11:44:15] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:44:15] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: intro
+[2026-07-20 11:44:24] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/intro.mp4
+[2026-07-20 11:44:24] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:44:24] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-20 11:45:01] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-20 11:45:01] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:45:02] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:45:02] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-20 11:45:37] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-20 11:45:37] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:45:38] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:45:38] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-20 11:46:13] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-20 11:46:14] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:46:14] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:46:14] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-20 11:46:52] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-20 11:46:52] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:46:53] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:46:53] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-20 11:47:28] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-20 11:47:28] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:47:28] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:47:28] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-20 11:48:03] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-20 11:48:03] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:48:03] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:48:03] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-20 11:48:42] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-20 11:48:42] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:48:43] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:48:43] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-20 11:49:25] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 11:49:25] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:49:25] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-20 11:49:32] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 11:49:32] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:49:32] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-20 11:50:08] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-20 11:50:09] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 11:50:09] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.7639930556
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.34776850813972 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 169.45966963310005 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.82639008834225 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.69752614494057 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.13372470639574 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.36215177512864 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4828556651404 degrees
+[2026-07-20 11:50:09] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.33652023286817 degrees
+[2026-07-20 11:50:11] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 11:50:11] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 11:50:52] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 11:50:52] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-20 11:51:02] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-20 11:51:02] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-20 11:51:02] [INFO] [audio_producer:generate_all_audio_async] - Dispatching audio generation tasks...
+[2026-07-20 11:51:05] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: intro
+[2026-07-20 11:51:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-20 11:51:07] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-20 11:51:08] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-20 11:51:09] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-20 11:51:12] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-20 11:51:14] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-20 11:51:15] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-20 11:51:16] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-20 11:51:18] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-20 11:51:18] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-20 11:51:19] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-20 11:51:22] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-20 11:51:22] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-20 11:51:45] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:51:45] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: intro
+[2026-07-20 11:51:54] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/intro.mp4
+[2026-07-20 11:51:54] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:51:54] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-20 11:52:28] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-20 11:52:28] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:52:31] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:52:31] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-20 11:53:07] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-20 11:53:07] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:53:11] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:53:11] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-20 11:53:47] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-20 11:53:47] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:53:51] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:53:51] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-20 11:54:26] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-20 11:54:26] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:54:29] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:54:29] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-20 11:55:08] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-20 11:55:08] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:55:11] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:55:11] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-20 11:55:47] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-20 11:55:47] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:55:51] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:55:51] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-20 11:56:31] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-20 11:56:31] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:56:35] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:56:35] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-20 11:57:08] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-20 11:57:08] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:57:11] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:57:11] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-20 11:57:51] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-20 11:57:51] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:57:55] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:57:55] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मकर
+[2026-07-20 11:58:30] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मकर.mp4
+[2026-07-20 11:58:30] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:58:33] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:58:33] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कुंभ
+[2026-07-20 11:59:09] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कुंभ.mp4
+[2026-07-20 11:59:09] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 11:59:12] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 11:59:12] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मीन
+[2026-07-20 11:59:48] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मीन.mp4
+[2026-07-20 11:59:48] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 12:42:38] [INFO] [app:phase4_combine_videos] - API Request: POST /api/phase4/combine_videos
+[2026-07-20 12:42:38] [INFO] [video_renderer:combine_all_videos] - Starting Phase 5: Combining Intro and 12 videos into Master Video
+[2026-07-20 12:43:06] [INFO] [video_renderer:combine_all_videos] - Phase 5 Complete: Master video saved to static/video/master_all_rasis.mp4
+[2026-07-20 12:48:20] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 13:35:26] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 13:35:26] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.8371064817
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.41755946500977 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 170.39022608570747 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.87680614131969 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.67432215039882 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.14987159552665 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.4413998565137 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4836646794974 degrees
+[2026-07-20 13:35:26] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.33264580728456 degrees
+[2026-07-20 13:35:28] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 13:35:28] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 13:35:57] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 13:35:57] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-20 13:36:02] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-20 13:36:02] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-20 13:36:02] [INFO] [audio_producer:generate_all_audio_async] - Dispatching audio generation tasks...
+[2026-07-20 13:36:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: intro
+[2026-07-20 13:36:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-20 13:36:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-20 13:36:08] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-20 13:36:11] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-20 13:36:12] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-20 13:36:12] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-20 13:36:14] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-20 13:36:15] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-20 13:36:17] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-20 13:36:18] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-20 13:36:19] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-20 13:36:23] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-20 13:36:23] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-20 13:36:31] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:36:31] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: intro
+[2026-07-20 13:36:41] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/intro.mp4
+[2026-07-20 13:36:41] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:36:41] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-20 13:37:14] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-20 13:37:14] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:37:17] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:37:17] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-20 13:37:56] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-20 13:37:56] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:38:00] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:38:00] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-20 13:38:38] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-20 13:38:38] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:38:42] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:38:42] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-20 13:39:23] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-20 13:39:23] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:39:26] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:39:26] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-20 13:40:07] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-20 13:40:07] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:40:10] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:40:10] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-20 13:40:46] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-20 13:40:46] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:40:50] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:40:50] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-20 13:41:24] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-20 13:41:24] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:41:29] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 13:41:29] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:41:29] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-20 13:41:31] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 13:41:31] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.8413310186
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.42159203691931 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 170.4439369909014 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.879719015058015 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.67299398251727 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.15080459615076 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.44597831390828 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4837111462962 degrees
+[2026-07-20 13:41:31] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.33242194068725 degrees
+[2026-07-20 13:41:33] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 13:41:33] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 13:41:55] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 13:41:55] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-20 13:41:59] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-20 13:41:59] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-20 13:41:59] [INFO] [audio_producer:generate_all_audio_async] - Dispatching audio generation tasks...
+[2026-07-20 13:42:02] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-20 13:42:03] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-20 13:42:03] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: intro
+[2026-07-20 13:42:04] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-20 13:42:06] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-20 13:42:08] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-20 13:42:10] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-20 13:42:12] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-20 13:42:15] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-20 13:42:15] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-20 13:42:18] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-20 13:42:19] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-20 13:42:19] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-20 13:42:23] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-20 13:42:23] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-20 13:42:28] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:42:28] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: intro
+[2026-07-20 13:42:37] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/intro.mp4
+[2026-07-20 13:42:37] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:42:37] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-20 13:43:18] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-20 13:43:18] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:43:22] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:43:22] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-20 13:44:03] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-20 13:44:03] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:44:06] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:44:06] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-20 13:45:32] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 13:45:33] [INFO] [app:<module>] - Starting Pandit Ji Engine Flask Server on port 5002
+[2026-07-20 13:45:41] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 13:45:41] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.8442245373
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.42435407333643 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 170.4807216974105 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.88171412202117 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.67208507276702 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.15144363941666 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.44911420962148 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.4837429553365 degrees
+[2026-07-20 13:45:41] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.3322686073866 degrees
+[2026-07-20 13:45:43] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 13:45:43] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 13:46:10] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 13:46:10] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json
+[2026-07-20 13:46:13] [INFO] [app:phase3_generate] - API Request: POST /api/phase3/generate
+[2026-07-20 13:46:13] [INFO] [audio_producer:generate_all_audio_async] - Starting Phase 3: Generating Neural Audio and Subtitles via Edge-TTS
+[2026-07-20 13:46:13] [INFO] [audio_producer:generate_all_audio_async] - Dispatching audio generation tasks...
+[2026-07-20 13:46:15] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: intro
+[2026-07-20 13:46:19] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मेष
+[2026-07-20 13:46:20] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृषभ
+[2026-07-20 13:46:21] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मिथुन
+[2026-07-20 13:46:21] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कर्क
+[2026-07-20 13:46:25] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: तुला
+[2026-07-20 13:46:27] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कन्या
+[2026-07-20 13:46:27] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: सिंह
+[2026-07-20 13:46:28] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: वृश्चिक
+[2026-07-20 13:46:30] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: धनु
+[2026-07-20 13:46:31] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: कुंभ
+[2026-07-20 13:46:32] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मकर
+[2026-07-20 13:46:33] [DEBUG] [audio_producer:generate_single_audio] - Generated Audio & VTT for Rasi: मीन
+[2026-07-20 13:46:33] [INFO] [audio_producer:generate_all_audio_async] - Phase 3 Complete: All Audio & VTT files generated successfully.
+[2026-07-20 13:46:37] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:46:37] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: intro
+[2026-07-20 13:46:46] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/intro.mp4
+[2026-07-20 13:46:46] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:46:46] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मेष
+[2026-07-20 13:47:23] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मेष.mp4
+[2026-07-20 13:47:23] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:47:26] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:47:26] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृषभ
+[2026-07-20 13:48:05] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृषभ.mp4
+[2026-07-20 13:48:05] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:48:08] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:48:08] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: मिथुन
+[2026-07-20 13:48:45] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/मिथुन.mp4
+[2026-07-20 13:48:45] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:48:48] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:48:48] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कर्क
+[2026-07-20 13:49:26] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कर्क.mp4
+[2026-07-20 13:49:26] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:49:30] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:49:30] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: सिंह
+[2026-07-20 13:50:06] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/सिंह.mp4
+[2026-07-20 13:50:06] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:50:09] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:50:09] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: कन्या
+[2026-07-20 13:50:50] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/कन्या.mp4
+[2026-07-20 13:50:50] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:50:54] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:50:54] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: तुला
+[2026-07-20 13:51:28] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/तुला.mp4
+[2026-07-20 13:51:28] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:51:32] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:51:32] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: वृश्चिक
+[2026-07-20 13:52:05] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/वृश्चिक.mp4
+[2026-07-20 13:52:05] [INFO] [app:phase4_build_short] - API Request: POST /api/phase4/build_short
+[2026-07-20 13:52:08] [INFO] [app:phase4_generate_single] - API Request: POST /api/phase4/generate_single
+[2026-07-20 13:52:08] [INFO] [video_renderer:render_single_video] - Starting Phase 4: Rendering video for Rasi: धनु
+[2026-07-20 13:52:34] [INFO] [app:phase1_calculate] - API Request: GET /api/phase1/calculate
+[2026-07-20 13:52:34] [INFO] [astronomy:calculate_daily_gochar] - Starting calculation of daily Gochar
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Calculated Julian Day: 2461241.8490046295
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Sun position calculated at 93.4289169577761 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Moon position calculated at 170.5414836417827 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Mars position calculated at 50.88501001607602 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Mercury position calculated at 82.6705849694457 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Jupiter position calculated at 100.15249934096666 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Venus position calculated at 137.45429464749284 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Saturn position calculated at 350.48379547255973 degrees
+[2026-07-20 13:52:34] [DEBUG] [astronomy:calculate_daily_gochar] - Rahu position calculated at 307.3320153008067 degrees
+[2026-07-20 13:52:36] [INFO] [app:phase2_generate] - API Request: POST /api/phase2/generate
+[2026-07-20 13:52:36] [INFO] [ai_generator:generate_daily_horoscopes] - Starting Phase 2: Generating Daily Horoscopes via Gemini
+[2026-07-20 13:52:41] [DEBUG] [video_renderer:render_single_video] - Successfully rendered video to static/video/धनु.mp4
+[2026-07-20 13:53:02] [DEBUG] [ai_generator:generate_daily_horoscopes] - Successfully received response from Gemini API.
+[2026-07-20 13:53:02] [INFO] [ai_generator:generate_daily_horoscopes] - Phase 2 Complete: Horoscopes saved to data/daily_predictions.json

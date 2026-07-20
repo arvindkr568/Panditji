@@ -77,8 +77,11 @@ async def generate_all_audio_async():
     rasi_predictions = predictions.get("predictions", {})
     
     for rasi, text in rasi_predictions.items():
+        # Inject a period after the zodiac name to force the TTS engine to take a small pause
+        text_with_pause = text.replace(f"{rasi} राशि ", f"{rasi} राशि। ")
+        
         # Schedule the async generation task with concurrency limit
-        task = asyncio.create_task(bounded_generate(text, rasi, audio_dir))
+        task = asyncio.create_task(bounded_generate(text_with_pause, rasi, audio_dir))
         tasks.append(task)
         
         # Keep track of the URL path for the frontend
