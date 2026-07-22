@@ -21,9 +21,17 @@ def setup_logger():
 
     logger.setLevel(logging.DEBUG) # Capture all levels (DEBUG, INFO, WARNING, ERROR, CRITICAL)
 
-    # Define a rich format for the logs
-    formatter = logging.Formatter(
-        fmt="[%(asctime)s] [%(levelname)s] [%(module)s:%(funcName)s] - %(message)s",
+    import pytz
+    from datetime import datetime
+    
+    class ISTFormatter(logging.Formatter):
+        def converter(self, timestamp):
+            dt = datetime.fromtimestamp(timestamp, tz=pytz.timezone('Asia/Kolkata'))
+            return dt.timetuple()
+
+    # Define a rich format for the logs using IST
+    formatter = ISTFormatter(
+        fmt="[%(asctime)s IST] [%(levelname)s] [%(module)s:%(funcName)s] - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S"
     )
 

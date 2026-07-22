@@ -1,4 +1,6 @@
 import os
+import json
+from dotenv import load_dotenv
 import google.auth
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -6,14 +8,28 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from services.logger import logger
 
+# Load environment variables from .env file if it exists
+load_dotenv()
+
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
 def get_authenticated_service():
     """Authenticates the user and returns a YouTube service object."""
     creds = None
-    # The file token.json stores the user's access and refresh tokens.
-    if os.path.exists('token.json'):
+    
+    # 1. Try to load token from environment variable first
+    token_env = os.environ.get('YOUTUBE_TOKEN_JSON')
+    if token_env:
+        try:
+            info = json.loads(token_env)
+            creds = Credentials.from_authorized_user_info(info, SCOPES)
+            logger.debug("Loaded YouTube credentials from YOUTUBE_TOKEN_JSON env var.")
+        except json.JSONDecodeError:
+            logger.warning("YOUTUBE_TOKEN_JSON is not valid JSON. Falling back to token.json file.")
+            
+    # 2. Fallback to token.json file
+    if not creds and os.path.exists('token.json'):
         logger.debug("Found existing token.json, loading credentials...")
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
         
@@ -28,12 +44,23 @@ def get_authenticated_service():
             with open('token.json', 'w') as token_file:
                 token_file.write(creds.to_json())
         else:
-            if not os.path.exists('client_secrets.json'):
-                logger.error("client_secrets.json is missing for YouTube authentication.")
-                raise FileNotFoundError("client_secrets.json is missing! You must create OAuth 2.0 credentials in Google Cloud Console and save them to the project root.")
+            # 3. We need to do a new OAuth flow. Let's get the client_secrets.
+            client_secrets_env = os.environ.get('YOUTUBE_CLIENT_SECRETS_JSON')
+            
+            if client_secrets_env:
+                logger.info("Starting local OAuth flow using YOUTUBE_CLIENT_SECRETS_JSON...")
+                try:
+                    client_config = json.loads(client_secrets_env)
+                    flow = InstalledAppFlow.from_client_config(client_config, SCOPES)
+                except json.JSONDecodeError:
+                    raise ValueError("YOUTUBE_CLIENT_SECRETS_JSON is not valid JSON!")
+            elif os.path.exists('client_secrets.json'):
+                logger.info("Starting local OAuth flow using client_secrets.json...")
+                flow = InstalledAppFlow.from_client_secrets_file('client_secrets.json', SCOPES)
+            else:
+                logger.error("No client secrets found for YouTube authentication.")
+                raise FileNotFoundError("Could not find YOUTUBE_CLIENT_SECRETS_JSON in .env, or client_secrets.json file!")
                 
-            logger.info("Starting local OAuth flow for YouTube authentication...")
-            flow = InstalledAppFlow.from_client_secrets_file('client_secrets.json', SCOPES)
             # We run a local server to capture the authorization code
             creds = flow.run_local_server(port=0)
             

@@ -64,27 +64,32 @@ def run_headless_pipeline():
     except Exception as e:
         logger.error(f"     Failed to upload Master to YouTube: {e}")
         
-    # 6B: Upload Shorts to YouTube
-    logger.info("[Phase 6B] Uploading Shorts to YouTube...")
-    for rasi in rasi_predictions.keys():
-        logger.info(f"  -> Uploading {rasi} Short to YouTube...")
-        try:
-            rasi_meta = generate_metadata_for_rasi(rasi)
-            yt_id = upload_video_to_youtube(f"static/video/final_{rasi}.mp4", rasi_meta)
-            logger.info(f"     Success! YouTube ID: {yt_id}")
-        except Exception as e:
-            logger.error(f"     Failed to upload {rasi} to YouTube: {e}")
-
-    # 6C: Upload Shorts to Meta (Facebook/Instagram)
-    logger.info("[Phase 6C] Uploading Shorts to Meta...")
-    for rasi in rasi_predictions.keys():
-        logger.info(f"  -> Uploading {rasi} Short to Meta...")
-        try:
-            rasi_meta = generate_metadata_for_rasi(rasi)
-            fb_id = upload_video_to_facebook(f"static/video/final_{rasi}.mp4", rasi_meta)
-            logger.info(f"     Success! Facebook ID: {fb_id}")
-        except Exception as e:
-            logger.error(f"     Failed to upload {rasi} to Meta: {e}")
+    # 6B & 6C: Upload Shorts to YouTube & Meta (Facebook/Instagram)
+    # -------------------------------------------------------------------------
+    # DISABLED to prevent hitting the YouTube API Quota Limit. 
+    # A fresh YouTube API Key only allows ~6 uploads per day (10,000 quota).
+    # Uploading the Master Video + 12 Shorts = 13 videos, which crashes the script.
+    # To re-enable, request a Quota Increase from Google Cloud Console.
+    # -------------------------------------------------------------------------
+    # logger.info("[Phase 6B] Uploading Shorts to YouTube...")
+    # for rasi in rasi_predictions.keys():
+    #     logger.info(f"  -> Uploading {rasi} Short to YouTube...")
+    #     try:
+    #         rasi_meta = generate_metadata_for_rasi(rasi)
+    #         yt_id = upload_video_to_youtube(f"static/video/final_{rasi}.mp4", rasi_meta)
+    #         logger.info(f"     Success! YouTube ID: {yt_id}")
+    #     except Exception as e:
+    #         logger.error(f"     Failed to upload {rasi} to YouTube: {e}")
+    #
+    # logger.info("[Phase 6C] Uploading Shorts to Meta...")
+    # for rasi in rasi_predictions.keys():
+    #     logger.info(f"  -> Uploading {rasi} Short to Meta...")
+    #     try:
+    #         rasi_meta = generate_metadata_for_rasi(rasi)
+    #         fb_id = upload_video_to_facebook(f"static/video/final_{rasi}.mp4", rasi_meta)
+    #         logger.info(f"     Success! Facebook ID: {fb_id}")
+    #     except Exception as e:
+    #         logger.error(f"     Failed to upload {rasi} to Meta: {e}")
             
     logger.info("✨ Pandit Ji Automation Complete!")
 
